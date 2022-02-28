@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: baseline;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+#dropdown {
+  width: 60px;
+  height: 60px;
+}
+#addClass {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 80px;
+}
+#account {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 10px;
+}
+#logo {
+  width: 200px;
+  text-align: center;
+}
+#to-do {
+  width: 80px;
+  height: 25.5px;
+  padding: 10px;
+}
+#calander {
+  width: 80px;
+  height: 25.5px;
+  padding: 10px;
+}
+#classes {
+  display: grid;
+  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  grid-auto-rows: 300px;
+  padding-right: 15px;
+  grid-gap: 15px;
+}
+.classeses {
+  border-radius: 10px;
+  border-color: transparent;
+}
+.invis {
+  display: none;
+}
